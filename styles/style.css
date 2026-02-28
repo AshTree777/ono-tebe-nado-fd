@@ -26,8 +26,7 @@
   list-style: none;
 }
 
-.header__link_active,
-.footer__menu-link_active {
+.menu-link_active {
   text-decoration: none;
 }
 
@@ -98,8 +97,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 17px;
   width: 1000px;
-  min-height: 385px;
   margin: 165px 0 106px;
   font-weight: bold;
   font-size: 100px;
